@@ -16,6 +16,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    align-items: center;
 }
 
 ul {
@@ -26,6 +27,11 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
 }
 
 .header-link {
@@ -39,8 +45,8 @@ a {
 }
 
 .header-item {
-    padding-top: 30px;
-    padding-bottom: 25px;
+    /* padding-top: 30px;
+    padding-bottom: 25px; */
 }
 
 .header-item-link {
@@ -65,7 +71,49 @@ border: none;
 background-color: #2468FF;
 padding: 27px 64px;
 display: block;
-height: 80px;
-width: 166px;
 margin-left: auto;
+cursor: pointer;
+}
+
+/* hero */
+
+.hero-section {
+    width: 1440px;
+    background-image: url(../img/background-ad-edited.jpg);
+    background-size: cover;
+    padding: 120px 0 271px 0;
+    margin: 0 auto;
+}
+
+.hero-container {
+    text-align: center;
+}
+
+.hero-title {
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 1.38;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.hero-button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    padding: 16px 37px 21px 37px;
+    cursor: pointer;
+    display: inline-block;
 }
